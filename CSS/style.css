@@ -1,0 +1,68 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.my_name, .my_formation, .nom_projet {
+    color: #212121; 
+}
+
+.img_dev {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+header { 
+    color: #fff;
+    text-align : center;
+    padding: 2rem;
+}
+
+.FDD {          /* FDD = Fruit du démon */ 
+    max-width: 100px;
+    max-height: 100px;
+}
+
+p {
+    color: #757575;
+    line-height: 2rem; 
+}
+
+
+section {
+    margin: 2rem;
+    background-color: #f5f5f5; 
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    background-color: #212121;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #424242;
+}
+footer {
+    background-color: #212121;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 1rem;
+    }
+}
